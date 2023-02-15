@@ -11,7 +11,7 @@ pipeline{
         stage ("Clone the code"){
             steps{
                 git branch: 'main', url: 'https://github.com/devops-mk03/twittertrend.git'
-            }0
+            }
         }
         stage ("Build the code"){
             steps{
